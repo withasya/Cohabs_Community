@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cohabs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="magicscroll/magicscroll.js"></script>
+    <link rel="stylesheet" href="magicscroll/magicscroll.css">
+    <link rel="stylesheet" href="ortak.css">
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+
+    <header class="bg-col-black text-white">
+
+        <nav class="navbar navbar-expand-lg row g-0 my-2 py-3 px-6">
+            <div class="col-2  nav-item d-flex justify-content-lg-center">
+                <button class="btn bg-col-white rounded-pill py-0 px-3">COHABS</button>
+            </div>
+            <div class="col-5  collapse navbar-collapse justify-content-center " id="navbarNav">
+                <ul class="navbar-nav ">
+
+                    <li class="nav-item dropdown">
+                        <button class="btn text-white dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            Cities
+                        </button>
+                        <ul class="dropdown-menu menu2" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <span>Log in to your lobby</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Community</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Impact</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <button class="btn text-white dropdown-toggle" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            More
+                        </button>
+                        <ul class="dropdown-menu menu2" aria-labelledby="dropdownMenuButton2">
+                            <li>
+                                <h2>Log in to your lobby</h2>
+
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-3 dropdown d-flex justify-content-lg-center">
+                <button type="button" class="btn  btn-link dropdown-toggle-split text-white" id="dropdownMenuButton3"
+                        aria-expanded="false">
+                    Login
+                </button>
+                <ul class="dropdown-menu menu1" aria-labelledby="dropdownMenuButton3">
+                    <button type="button" class="btn-close pe-4 float-end" aria-label="Close" id="closeButton"></button>
+                    <li class="p-4">
+                        <h4>Log in to your lobby</h4>
+                        <div class="size">We will send the link via email. Use this link to login to your account.</div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput">
+                            <label for="floatingInput">E-mail</label>
+                            <button class="btn btn-dark rounded-pill mt-5 py-3 px-5 ">
+                                Send
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-light border-2 rounded-pill py-2 px-3 text-white ">
+                    Find a room
+                </button>
+            </div>
+        </nav>
+
+        <div class="carousel slide carousel-dark p-0 slider1" id="slider1">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#slider1" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#slider1" data-bs-slide-to="1"></li>
+                <li data-bs-target="#slider1" data-bs-slide-to="2"></li>
+                <li data-bs-target="#slider1" data-bs-slide-to="3"></li>
+                <div class="carousel-caption text-white">
+                    <h4>Join our community</h4>
+                    <p>Our members will always come first. Always. Welcome home.</p>
+                </div>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img-opacity" src="gerekenler/filters_quality(80).jpg" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-opacity" src="gerekenler/filters_quality(80)1.jpg" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-opacity" src="gerekenler/filters_quality(80)2.jpg" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-opacity" src="gerekenler/filters_quality(80)3.jpg" alt="">
+                </div>
+            </div>
+            <a href="#slider1" class="carousel-control-prev" data-bs-slide="prev">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                             class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                        </svg>
+                    </span>
+            </a>
+            <a href="#slider1" class="carousel-control-next" data-bs-slide="next">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                             class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                        </svg>
+                    </span>
+            </a>
+        </div>
+
+        <div class="row g-0 d-flex justify-content-lg-center py-5 bg-col-white text-dark">
+            <div class="col-4 text-center">
+                <h6>Join our vibrant community</h6>
+                <p class="size2">Our members are a unique bunch of fun, welcoming individuals that love life.</p>
+            </div>
+
+            <div class=" col-2 ">
+                <p>Average age</p>
+                <h1>28</h1>
+            </div>
+
+            <div class=" col-2 ">
+                <p>Total nationalities</p>
+                <h1>74</h1>
+            </div>
+
+            <div class=" col-2 ">
+                <p>Events per month</p>
+                <h1>10</h1>
+            </div>
+
+            <div class=" col-2 ">
+                <p>Average stay</p>
+                <h1>11 months</h1>
+            </div>
+
+        </div>
+
+        <div class="row g-0  py-5 px-3 bg-col text-dark">
+            <div class="hidden-left col-8  p-xl-5 text-start">
+                <p class="text-primary">Our purpose</p>
+                <h2>We care about our members and that’s what drives us to do better every day.</h2>
+                <p class="float-start">At Cohabs, we believe in bringing people together and creating meaningful
+                    connections. Our international community is composed of expats as well as locals coming from all over
+                    the world. Today, we've had over 3000 people stay with us and become a part of our thriving community.
+                    We're always looking to improve the Cohabs experience, and our members play a huge part.</p>
+            </div>
+
+            <div class="hidden-right col-4 d-flex justify-content-lg-center">
+                <img src="gerekenler/framehands.svg" alt="SVG Dosyası">
+            </div>
+
+        </div>
+
+        <div class="row g-0 py-5 bg-col ">
+            <div class="col py-5">
+                <div class="row g-0 py-4 ">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(1).jpg">
+                    </div>
+                </div>
+                <div class="row g-0 py-4 ">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(2).jpg">
+                    </div>
+                </div>
+                <div class="row g-0 py-4">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(3).jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col  img-m py-5">
+                <div class="row g-0 py-4">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(4).jpg">
+                    </div>
+                </div>
+                <div class="row g-0 py-4">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(5).jpg">
+                    </div>
+                </div>
+                <div class="row g-0 py-4">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(6).jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col py-5">
+                <div class="row g-0 py-4">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(7).jpg">
+                    </div>
+                </div>
+                <div class="row g-0 py-4">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(8).jpg">
+                    </div>
+                </div>
+                <div class="row g-0 py-4">
+                    <div class=" col d-flex justify-content-lg-center">
+                        <img class="img-sizes" src="gerekenler/filters_quality(9).jpg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arka">
+            <div class="arka p-2">
+                <h1 class="hidden-top size-max ps-5">Member stories</h1>
+            </div>
+
+            <div class="MagicScroll arka" data-options="items: 3; step: 1;">
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c1.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Cohabs is about discovery.You meet people that you wouldn’t meet in
+                            real life.”<br>
+                            <h6 class="text-gold"><b>Lucas</b></h6><br>
+                            <h6>Gambetta 11</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c2.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Cohabs truly fosters a feeling of community and family.”<br>
+                            <h6 class="text-gold"><b>Teodora</b></h6><br>
+                            <h6>Peupliers 5</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c3.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“You get to share wonderful experiences with people from different
+                            backgrounds.”<br>
+                            <h6 class="text-gold"><b>Alexandre</b></h6><br>
+                            <h6>Stephanie 47</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c4.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Proud of being the first Cohabs member and still a part of this
+                            community adventure!”<br>
+                            <h6 class="text-gold"><b>Gonzalo</b></h6><br>
+                            <h6>Chatelain 50</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c5.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Cohabs really puts an effort into allowing us to connect.”<br>
+                            <h6 class="text-gold"><b>Luana</b></h6><br>
+                            <h6>Madou 41</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c6.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Cohabs is about discovery. You meet people that you wouldn’t meet in
+                            real life.”<br>
+                            <h6 class="text-gold"><b>Teodora</b></h6><br>
+                            <h6>Gambetta 11</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c7.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Cohabs is about discovery. You meet people that you wouldn’t meet in
+                            real life.”<br>
+                            <h6 class="text-gold"><b>Teodora</b></h6><br>
+                            <h6>Gambetta 11</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c8.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Cohabs is about discovery. You meet people that you wouldn’t meet in
+                            real life.”<br>
+                            <h6 class="text-gold"><b>Teodora</b></h6><br>
+                            <h6>Gambetta 11</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c9.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Cohabs is about discovery. You meet people that you wouldn’t meet in
+                            real life.”<br>
+                            <h6 class="text-gold"><b>Teodora</b></h6><br>
+                            <h6>Gambetta 11</h6>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card arka m-5">
+                    <img class="kose img-opacity" src="gerekenler/c10.jpg">
+                    <div class="card-img-overlay d-flex flex-column text-start">
+                        <h5 class="card-text mt-auto">“Cohabs is about discovery. You meet people that you wouldn’t meet in
+                            real life.”<br>
+                            <h6 class="text-gold"><b>Teodora</b></h6><br>
+                            <h6>Gambetta 11</h6>
+                        </h5>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="bg-col p-5 text-center text-dark ">
+            <div>
+                <div class="hidden-top">
+                    <h1>The 6 universes of our community</h1>
+                    <p class="p-1">You will never be bored. Worst case scenario, you will dream.</p>
+                </div>
+            </div>
+
+            <div class="grid-container ">
+
+                <div class="grid-item hover1  row">
+                    <div class="col-11 text-lg-start">
+                        <h1 class="text1">LEARN</h1><br>
+                        <p>We believe that being curious and learning from each other are key to true inclusivity and
+                            respect.</p>
+                    </div>
+                </div>
+
+                <div class="grid-item hover2 row">
+                    <div class="col-11 text-lg-start">
+                        <h1 class="text2">ACT</h1><br>
+                        <p>We don't do big speeches. Instead, we take action for causes that we hold dear.</p>
+                    </div>
+                </div>
+
+                <div class="grid-item hover3 row">
+                    <div class="col-11 text-lg-start">
+                        <h1 class="text3">COOK</h1><br>
+                        <p>Food has been the best way to gather people and create meaningful connections since the dawn of
+                            time. So don't underestimate the power of cooking together!</p>
+                    </div>
+                </div>
+
+                <div class="grid-item hover4 row">
+                    <div class="col-11 text-lg-start">
+                        <h1 class="text4">DREAM</h1><br>
+                        <p>Dream big, no one has ever achieved greatness without dreaming.</p>
+                    </div>
+                </div>
+
+                <div class="grid-item hover5 row">
+                    <div class="col-11 text-lg-start">
+                        <h1 class="text5">SHARE</h1><br>
+                        <p>True change starts with you. Share your dreams, share the love, and share what you're passionate
+                            about.</p>
+                    </div>
+                </div>
+
+                <div class="grid-item hover6 row">
+                    <div class="col-11 text-lg-start">
+                        <h1 class="text6">PARTY</h1><br>
+                        <p>Life is a party. At Cohabs, we celebrate every chance we get!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <article>
+        <section class="row g-0 mt-5">
+            <div class="hidden-left col-6 d-flex justify-content-center  me-5">
+                <svg style="margin-top: 120px; margin-left: 20px" height="1000" width="1000">
+                    <g style="color:  #d1c6e4">
+                        <circle cx="300" cy="300" r="300" stroke="none" stroke-width="1" fill="currentcolor"/>
+                    </g>
+                </svg>
+                <svg style="margin-top: 150px; padding-left: 170px; position: absolute" height="1000" width="1000">
+                    <g style="color: #c4b0d9">
+                        <circle cx="300" cy="300" r="300" stroke="currentcolor" stroke-width="2" fill="none"/>
+                    </g>
+                </svg>
+                    <img  src="gerekenler/phone.jpg" style="max-height: 840px; max-width: 435px; position: absolute">
+
+            </div>
+
+            <div class="hidden-right col-5 me-5 pe-5 py-5">
+                <span style="color: rgb(148,216,250)"> Technology </span>
+                <h1 class="baslik1">Everything you need at your fingertips </h1>
+                <span class="yazi1">The Cohabs app allows you to open your door, request maintenance, and check rent payment.
+                      It’s also how you connect with your housemates!</span>
+                <span>
+                    <ul class="ul1 p-5">
+                        <li >Lock and unlock your door</li>
+                        <li >Chat with your housemates</li>
+                        <li >Report an incident</li>
+                        <li >Manage all your lease details</li>
+                        <li >Switch rooms or houses at any time</li>
+                        <li >Join or create local and global events and groups</li>
+                    </ul>
+
+                </span>
+            </div>
+        </section>
+
+        <section class="ayı ps-5 pt-2">
+                <div class="hidden-top p-5">
+                    <h1>Experience our events</h1>
+                    <h5 class="text-color1">We help our members connect through activities and events where they discover, share, and learn from each other.</h5>
+                </div>
+
+
+                <div class="MagicScroll pb-5 mb-5 " data-options="items: 4; step: 1;">
+                    <div class="card border-0 ayı " style="width: 18rem;">
+                        <img src="gerekenler/a.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Afterworks</h4>
+                            <h6 class="card-text">There's nothing better than getting together with good friends over a drink after a long work day!</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/b.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Solidarity gala</h4>
+                            <h6 class="card-text">Our community brings gifts to donate and comes together for an evening of food, drinks, and holiday spirit.</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/c.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Cohabs Retreat</h4>
+                            <h6 class="card-text">Once a year, we spend a full weekend with our members for an extraordinary wellness retreat.</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı " style="width: 18rem;">
+                        <img src="gerekenler/d.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Match & Connect</h4>
+                            <h6 class="card-text">Meet new people with similar interests over a drink! There are a ton of new friends waiting for you.</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/e.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Monthly breakfast</h4>
+                            <h6 class="card-text">Every month, we deliver an organic and local breakfast directly to your doorsteps to share with your housemates.</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/f.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Halloween party</h4>
+                            <h6 class="card-text">Celebrating Halloween the best way possible: with crazy costumes, music, drink, and the best housemates ever.</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/g.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Afterworks</h4>
+                            <h6 class="card-text">There's nothing better than getting together with good friends over a drink after a long work day!</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/h.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Afterworks</h4>
+                            <h6 class="card-text">There's nothing better than getting together with good friends over a drink after a long work day!</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/i.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Afterworks</h4>
+                            <h6 class="card-text">There's nothing better than getting together with good friends over a drink after a long work day!</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı " style="width: 18rem;">
+                        <img src="gerekenler/k.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Afterworks</h4>
+                            <h6 class="card-text">There's nothing better than getting together with good friends over a drink after a long work day!</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/l.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Afterworks</h4>
+                            <h6 class="card-text">There's nothing better than getting together with good friends over a drink after a long work day!</h6>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 ayı" style="width: 18rem;">
+                        <img src="gerekenler/m.png" class="card-img-top" />
+                        <div class="card-body ps-0 text-start">
+                            <h4 class="card-title ">Afterworks</h4>
+                            <h6 class="card-text">There's nothing better than getting together with good friends over a drink after a long work day!</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        <section class="ps-3 py-5 ms-5 my-5">
+                <div class="container_c">
+                    <span class="static-text">We create the places,</span>
+                    <div class="text-container">
+                        <span class="static-text">you</span>
+                        <ul class="dynamic-text">
+                            <li class="item">create the moments</li>
+                            <li class="item">make the lifelong friendships</li>
+                            <li class="item">plan the family dinners</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="py-3">
+                    <button class=" btn apply_btn rounded-pill ">
+                        <span>Apply for a room</span>
+                    </button>
+                </div>
+            </section>
+
+    </article>
+
+    <hr>
+
+    <footer>
+        <div >
+            <div class="row g-0  m-5">
+                <h1 class="col-1 ps-3"><b>#cohabs</b></h1>
+
+                <button class=" instagram_btn col-3 rounded-pill ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg>
+                    <span>Follow us on Instagram</span>
+                </button>
+            </div>
+
+            <div class="MagicScroll zebra" data-options="items: 6; step: 1;">
+                <img class="kose" src="gerekenler/1.png" height="200" width="207" />
+                <img class="kose" src="gerekenler/2.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/3.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/4.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/5.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/6.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/7.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/8.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/9.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/10.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/11.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/12.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/13.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/14.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/15.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/16.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/17.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/18.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/19.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/20.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/21.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/22.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/23.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/24.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/25.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/26.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/27.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/28.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/29.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/30.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/31.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/32.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/33.png" height="200" width="207"/>
+                <img class="kose" src="gerekenler/34.png" height="200" width="207"/>
+
+
+            </div>
+        </div>
+
+        <div class="container-fluid  arka p-5">
+            <div class="d-flex  row container justify-content-center pt-5 pb-5 beyaz ">
+                <div class="col-6 ps-5">
+                    <h1><b>Stay in the loop</b></h1>
+                    <p>Subscribe to our newsletter for updates</p>
+                </div>
+                <div class="col-6 ps-5">
+                    <div class="input-group">
+                        <input id="input1" type="text" class="form-control form-text rounded-pill" placeholder="Enter your email">
+                        <button id="buton1" class="btn btn-secondary rounded-pill py-1 px-5 align-items-center" type="submit">Submit</button>
+                    </div>
+                    <div class="form-check py-4">
+                        <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                        <label class="form-check-label">I would like to be kept up-to-date with marketing, features, and events.</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="color: white">
+
+            <div class="container d-flex ">
+                <table class="table table-sm  table-responsive-md table-borderless">
+                    <thead>
+                    <tr>
+                        <th>YOUR STAY</th>
+                        <th>DISCOVER</th>
+                        <th>COHABS</th>
+                        <th>HELP</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="6" class="position-relative"><img src="gerekenler/logo.png" class="mx-auto d-block"></td>
+
+                    </tr>
+                    <tr>
+                        <td>About your stay</td>
+                        <td>Podcast</td>
+                        <td>About Cohabs</td>
+                        <td>Contact Us</td>
+                        <td></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Collections</td>
+                        <td>App (iOS)</td>
+                        <td>What is coliving?</td>
+                        <td>Neighborhood support</td>
+                        <td><img src="gerekenler/instagram_circle.svg" class=" mx-auto d-block"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Corporate housing</td>
+                        <td>Bruxelles</td>
+                        <td>Careers</td>
+                        <td>FAQ</td>
+                        <td><img src="gerekenler/facebook_circle.svg" class="mx-auto d-block"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td></td>
+                        <td>Madrid</td>
+                        <td>Our footprint</td>
+                        <td>Press</td>
+                        <td><img src="gerekenler/linkedin_circle.svg" class="mx-auto d-block"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>Paris</td>
+                        <td>1% for the planet</td>
+                        <td></td>
+                        <td><img src="gerekenler/youtube_circle.svg" class="mx-auto d-block"></td>
+                    </tr>
+
+
+                </table>
+
+
+            </div>
+            <div class="c.container row d-flex justify-content-center ">
+
+                <div class="col-7  py-3  ">
+                    <button class="btn btn-light rounded-pill py-0 px-3">COHABS</button>
+                    <span  class="text-muted k">Copyright © 2024 Cohabs. All Rights Reserved. Cohabs™ and the Cohabs logo are trademarks of Cohabs Services SA</span>
+                </div>
+                <div class="col-4 py-3 d-flex justify-content-end">
+                    <ul
+                            class=" k list-unstyled d-flex flex-wrap "
+                    >
+                        <li >
+                            <a href="#" class=" text-muted me-2 me-md-3 text-decoration-none">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class=" text-muted me-2 me-md-3 text-decoration-none">
+                                Cookie Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class=" text-muted me-2 me-md-3 text-decoration-none">
+                                Website terms of use
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class=" text-muted me-2 me-md-3 text-decoration-none">
+                                Terms and conditions
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

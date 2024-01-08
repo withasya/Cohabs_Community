@@ -1,0 +1,368 @@
+body {
+    overflow-x: hidden;
+}
+.baslik1{
+    font-size: 63px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+.yazi1 ,
+.ul1{
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ul1{
+    list-style-image: url("gerekenler/icons8-check.svg");
+    line-height: 48px;
+}
+.nav-item {
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.dropdown {
+    position: relative;
+}
+.menu1 {
+    position: absolute;
+    top: 90%;
+    z-index: 1000;
+    display: none;
+    float: left;
+    max-width: 275px;
+    min-height: 350px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    background-clip: padding-box;
+}
+.menu2 {
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    display: none;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    background-clip: padding-box;
+}
+
+.img-m{
+    margin-top: 64px;
+}
+
+.size{
+    font-size: medium;
+}
+.size-max{
+    font-size: 70px;
+}
+.size2{
+    font-size: small;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.slider1 {
+    position: relative;
+
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.img-opacity {
+    opacity: 0.5;
+}
+
+.img-sizes {
+    width: 420px;
+    height: 281px;
+    border-radius: 16px;
+    transition: 250ms;
+}
+
+.img-sizes:hover{
+    width: 400px;
+    height: 261px;
+}
+
+.border-rad{
+    border-radius: 16px;
+}
+
+.bg-col{
+    background: rgb(251, 248, 243);
+}
+
+.bg-col-dark{
+    background: rgb(22,24,45);
+}
+.bg-col-black{
+    background: rgb(0, 0, 0);
+}
+.bg-col-white{
+    background: rgb(255, 255, 255);
+}
+
+.text-gold{
+    color: rgb(202, 171, 137);
+}
+
+.hidden-left {
+    opacity: 0;
+    transform: translateX(-10%);
+    transition: all 700ms;
+}
+
+.hidden-right {
+    opacity: 0;
+    transform: translateX(20%);
+    transition: all 700ms;
+}
+
+.hidden-top {
+    margin-top: 100px;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 500ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 312px 312px;
+    grid-template-columns: 420px 420px 420px;
+    gap: 20px 25px;
+    margin-top: 75px;
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+.grid-item {
+    border-radius:24px;
+    background: white;
+    padding-top: 60px;
+    padding-left: 20px;
+    max-width: 420px;
+    max-height: 290px;
+}
+
+
+.hover1:hover{
+    background-color: rgb(243, 177, 197);
+    color: white;
+    transition: 200ms;
+    .text1{
+        color: white;
+        transition: 200ms;}
+}
+.hover2:hover{
+    background-color: rgb(227, 20, 43);
+    color: white;
+    transition: 200ms;
+    .text2{
+        color: white;
+        transition: 200ms;}
+}
+.hover3:hover{
+    background-color: rgb(255, 220, 96);
+    color: white;
+    transition: 200ms;
+    .text3{
+        color: white;
+        transition: 200ms;}
+}
+.hover4:hover{
+    background-color: rgb(143, 214, 250);
+    color: white;
+    transition: 200ms;
+    .text4{
+        color: white;
+        transition: 200ms;}
+}
+.hover5:hover{
+    background-color: rgb(18, 143, 69);
+    color: white;
+    transition: 200ms;
+    .text5{
+        color: white;
+        transition: 200ms;}
+}
+.hover6:hover{
+    background-color: rgb(102, 66, 166);
+    color: white;
+    transition: 200ms;
+    .text6{
+        color: white;
+        transition: 200ms;}
+}
+
+.text1{
+    color: rgb(243, 177, 197);
+}
+.text2{
+    color: rgb(227, 20, 43);
+}
+.text3{
+    color: rgb(255, 220, 96);
+}
+.text4{
+    color: rgb(143, 214, 250);
+}
+.text5{
+    color: rgb(18, 143, 69);
+}
+.text6{
+    color: rgb(102, 66, 166);
+}
+
+.arka{
+    background-color: rgb(22,24,45);
+}
+.k{
+    font-size: small;
+}
+th{
+    color: gray;
+}
+tr,.beyaz{
+    color: white;
+}
+.kose{
+    border-radius:16px;
+
+}
+.input-group{
+    max-width: 500px;
+}
+#input1{
+    position: relative;
+    top:10px;
+    bottom: 10px;
+    height: 60px;
+    width: 100%;
+}
+#buton1{
+    position: absolute;
+    max-height: 50px;
+    top:25px;
+    bottom: 0px;
+    right: 30px;
+    z-index: 1000;
+}
+.zebra{
+    height: 200px;
+    background-image:linear-gradient(white,rgb(22,24,45)50%);
+}
+.instagram_btn{
+    margin-left:80px;
+    margin-top: 5px;
+    background-color: white;
+    height: 45px;
+    width: 230px;
+}
+.apply_btn{
+    background-color: black;
+    height: 56px;
+    width: 203px;
+    color: white;
+    padding: 16px 25px;
+}
+.instagram_btn:hover{
+    background-color: rgb(22,24,45);
+    color: white;
+}
+.apply_btn:hover{
+    opacity: 0.9;
+}
+.container_c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.text-container {
+    width: 500px;
+    font-size: 55px;
+}
+
+.dynamic-text,
+.static-text {
+    display: inline-block;
+}
+
+.static-text{
+    margin-right: 10px;
+    color: black;
+    font-size: 60px;
+}
+
+.dynamic-text{
+    height: 80px;
+    list-style: none;
+    position: absolute;
+    overflow: hidden;
+}
+
+.item {
+    position: relative;
+    top: 0;
+    animation: move 6s infinite 3s;
+
+
+    &:first-child {
+        color: #6642a6;
+    }
+    &:nth-child(2) {
+        color: #94d8fa;
+    }
+    &:nth-child(3) {
+        color: #f3b1c5;
+    }
+}
+
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: -80px;
+    }
+    100% {
+        top: -165px;
+    }
+
+}
+.card-img-top{
+    border-radius: 25px;
+}
+.card-title{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.card-text {
+    white-space: pre-line;
+    padding-top: 13px;
+    padding-right: 30px;
+    font-size: 17px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.ayı{
+    background-color: #fbf8f3;
+}
