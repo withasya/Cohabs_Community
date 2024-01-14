@@ -1,6 +1,8 @@
 # Cohabs_Community
 Cohabs Clone
+
 URL: https://withasya.github.io/Cohabs_Community/
+
 ![Ekran görüntüsü 2024-01-09 021602](https://github.com/withasya/Cohabs_Community/assets/72988994/a8f4ea2c-34fb-4f31-a7e0-be9cfb6310b4)
 ![Ekran görüntüsü 2024-01-09 021702](https://github.com/withasya/Cohabs_Community/assets/72988994/ee8fae23-2dce-4dd9-a63e-824c6e45cb5f)
 ![Ekran görüntüsü 2024-01-09 021813](https://github.com/withasya/Cohabs_Community/assets/72988994/0ba4abcf-d8cb-4615-9434-354da3b693e1)
